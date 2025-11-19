@@ -1,7 +1,5 @@
 # Not So Super Mario
 
-### Mario Game Simulation Readme
-
 #### Overview
 This project showcases my proficiency in data structures and algorithms with a focus on array manipulation and object-oriented programming in C++. The simulation of Super Mario involves reading level data from input files, processing and managing gameplay states, and writing results to output files. Mario navigates through a multi-level world represented by a 3D array, interacting dynamically with his environment through a series of conditional events and game logic structures.
 
@@ -35,3 +33,4 @@ To compile and run the program:
 
 #### References
 - No external libraries or non-primitive data structures (e.g., vectors) are used, as per project requirements.
+
