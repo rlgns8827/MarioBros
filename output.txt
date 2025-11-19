@@ -1,0 +1,555 @@
+Initial layout of Level 1:
+k k c g m
+c c w m k
+g g c k m
+g k g x c
+m x b x m
+
+Initial layout of Level 2:
+k c m c m
+k x g k m
+m g c g k
+x b k x c
+g m x g c
+
+Mario starting position: (3,3)
+k k c g m
+c c w m k
+g g c k m
+g k g H c
+m x b x m
+
+Level 1 | (3,4) | Power before: 0 | Action: collected a coin | Lives: 3 | Coins: 1 | Next move: LEFT
+k k c g m
+c c w m k
+g g c k m
+g k g x H
+m x b x m
+
+Level 1 | (3,3) | Power before: 0 | Action: the position is empty | Lives: 3 | Coins: 1 | Next move: RIGHT
+k k c g m
+c c w m k
+g g c k m
+g k g H x
+m x b x m
+
+Level 1 | (3,4) | Power before: 0 | Action: the position is empty | Lives: 3 | Coins: 1 | Next move: RIGHT
+k k c g m
+c c w m k
+g g c k m
+g k g x H
+m x b x m
+
+Level 1 | (3,0) | Power before: 0 | Action: fought a Goomba and won | Lives: 3 | Coins: 1 | Next move: UP
+k k c g m
+c c w m k
+g g c k m
+H k g x x
+m x b x m
+
+Level 1 | (2,0) | Power before: 0 | Action: fought a Goomba and won | Lives: 3 | Coins: 1 | Next move: LEFT
+k k c g m
+c c w m k
+H g c k m
+x k g x x
+m x b x m
+
+Level 1 | (2,4) | Power before: 0 | Action: ate a mushroom | Lives: 3 | Coins: 1 | Next move: UP
+k k c g m
+c c w m k
+x g c k H
+x k g x x
+m x b x m
+
+Level 1 | (1,4) | Power before: 1 | Action: fought a Koopa and won | Lives: 3 | Coins: 1 | Next move: RIGHT
+k k c g m
+c c w m H
+x g c k x
+x k g x x
+m x b x m
+
+Level 1 | (1,0) | Power before: 1 | Action: collected a coin | Lives: 3 | Coins: 2 | Next move: LEFT
+k k c g m
+H c w m x
+x g c k x
+x k g x x
+m x b x m
+
+Level 1 | (1,4) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 2 | Next move: UP
+k k c g m
+x c w m H
+x g c k x
+x k g x x
+m x b x m
+
+Level 1 | (0,4) | Power before: 1 | Action: ate a mushroom | Lives: 3 | Coins: 2 | Next move: RIGHT
+k k c g H
+x c w m x
+x g c k x
+x k g x x
+m x b x m
+
+Level 1 | (0,0) | Power before: 2 | Action: fought a Koopa and lost | Lives: 3 | Coins: 2 | Next move: LEFT
+H k c g x
+x c w m x
+x g c k x
+x k g x x
+m x b x m
+
+Level 1 | (0,4) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 2 | Next move: LEFT
+k k c g H
+x c w m x
+x g c k x
+x k g x x
+m x b x m
+
+Level 1 | (0,3) | Power before: 1 | Action: fought a Goomba and lost | Lives: 3 | Coins: 2 | Next move: LEFT
+k k c H x
+x c w m x
+x g c k x
+x k g x x
+m x b x m
+
+Level 1 | (0,2) | Power before: 0 | Action: collected a coin | Lives: 3 | Coins: 3 | Next move: DOWN
+k k H g x
+x c w m x
+x g c k x
+x k g x x
+m x b x m
+
+Level 1 | (1,2) | Power before: 0 | Action: warped to next level | Lives: 3 | Coins: 3 | Next move: DOWN
+k k x g x
+x c H m x
+x g c k x
+x k g x x
+m x b x m
+
+--- Mario warped to Level 2 ---
+k c m c m
+k x g k m
+m g c g k
+x b k x c
+g m x g c
+
+Mario starting position: (1,1)
+k c m c m
+k H g k m
+m g c g k
+x b k x c
+g m x g c
+
+Level 2 | (0,1) | Power before: 0 | Action: collected a coin | Lives: 3 | Coins: 4 | Next move: RIGHT
+k H m c m
+k x g k m
+m g c g k
+x b k x c
+g m x g c
+
+Level 2 | (0,2) | Power before: 0 | Action: ate a mushroom | Lives: 3 | Coins: 4 | Next move: UP
+k x H c m
+k x g k m
+m g c g k
+x b k x c
+g m x g c
+
+Level 2 | (4,2) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 4 | Next move: DOWN
+k x x c m
+k x g k m
+m g c g k
+x b k x c
+g m H g c
+
+Level 2 | (0,2) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 4 | Next move: UP
+k x H c m
+k x g k m
+m g c g k
+x b k x c
+g m x g c
+
+Level 2 | (4,2) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 4 | Next move: DOWN
+k x x c m
+k x g k m
+m g c g k
+x b k x c
+g m H g c
+
+Level 2 | (0,2) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 4 | Next move: DOWN
+k x H c m
+k x g k m
+m g c g k
+x b k x c
+g m x g c
+
+Level 2 | (1,2) | Power before: 1 | Action: fought a Goomba and lost | Lives: 3 | Coins: 4 | Next move: UP
+k x x c m
+k x H k m
+m g c g k
+x b k x c
+g m x g c
+
+Level 2 | (0,2) | Power before: 0 | Action: the position is empty | Lives: 3 | Coins: 4 | Next move: LEFT
+k x H c m
+k x g k m
+m g c g k
+x b k x c
+g m x g c
+
+Level 2 | (0,1) | Power before: 0 | Action: the position is empty | Lives: 3 | Coins: 4 | Next move: RIGHT
+k H x c m
+k x g k m
+m g c g k
+x b k x c
+g m x g c
+
+Level 2 | (0,2) | Power before: 0 | Action: the position is empty | Lives: 3 | Coins: 4 | Next move: DOWN
+k x H c m
+k x g k m
+m g c g k
+x b k x c
+g m x g c
+
+Level 2 | (1,2) | Power before: 0 | Action: fought a Goomba and won | Lives: 3 | Coins: 4 | Next move: RIGHT
+k x x c m
+k x H k m
+m g c g k
+x b k x c
+g m x g c
+
+Level 2 | (1,3) | Power before: 0 | Action: fought a Koopa and won | Lives: 3 | Coins: 4 | Next move: DOWN
+k x x c m
+k x x H m
+m g c g k
+x b k x c
+g m x g c
+
+Level 2 | (2,3) | Power before: 0 | Action: fought a Goomba and won | Lives: 3 | Coins: 4 | Next move: DOWN
+k x x c m
+k x x x m
+m g c H k
+x b k x c
+g m x g c
+
+Level 2 | (3,3) | Power before: 0 | Action: the position is empty | Lives: 3 | Coins: 4 | Next move: UP
+k x x c m
+k x x x m
+m g c x k
+x b k H c
+g m x g c
+
+Level 2 | (2,3) | Power before: 0 | Action: the position is empty | Lives: 3 | Coins: 4 | Next move: LEFT
+k x x c m
+k x x x m
+m g c H k
+x b k x c
+g m x g c
+
+Level 2 | (2,2) | Power before: 0 | Action: collected a coin | Lives: 3 | Coins: 5 | Next move: UP
+k x x c m
+k x x x m
+m g H x k
+x b k x c
+g m x g c
+
+Level 2 | (1,2) | Power before: 0 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: UP
+k x x c m
+k x H x m
+m g x x k
+x b k x c
+g m x g c
+
+Level 2 | (0,2) | Power before: 0 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: LEFT
+k x H c m
+k x x x m
+m g x x k
+x b k x c
+g m x g c
+
+Level 2 | (0,1) | Power before: 0 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: UP
+k H x c m
+k x x x m
+m g x x k
+x b k x c
+g m x g c
+
+Level 2 | (4,1) | Power before: 0 | Action: ate a mushroom | Lives: 3 | Coins: 5 | Next move: DOWN
+k x x c m
+k x x x m
+m g x x k
+x b k x c
+g H x g c
+
+Level 2 | (0,1) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: UP
+k H x c m
+k x x x m
+m g x x k
+x b k x c
+g x x g c
+
+Level 2 | (4,1) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: DOWN
+k x x c m
+k x x x m
+m g x x k
+x b k x c
+g H x g c
+
+Level 2 | (0,1) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: DOWN
+k H x c m
+k x x x m
+m g x x k
+x b k x c
+g x x g c
+
+Level 2 | (1,1) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: DOWN
+k x x c m
+k H x x m
+m g x x k
+x b k x c
+g x x g c
+
+Level 2 | (2,1) | Power before: 1 | Action: fought a Goomba and won | Lives: 3 | Coins: 5 | Next move: LEFT
+k x x c m
+k x x x m
+m H x x k
+x b k x c
+g x x g c
+
+Level 2 | (2,0) | Power before: 1 | Action: ate a mushroom | Lives: 3 | Coins: 5 | Next move: RIGHT
+k x x c m
+k x x x m
+H x x x k
+x b k x c
+g x x g c
+
+Level 2 | (2,1) | Power before: 2 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: UP
+k x x c m
+k x x x m
+x H x x k
+x b k x c
+g x x g c
+
+Level 2 | (1,1) | Power before: 2 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: DOWN
+k x x c m
+k H x x m
+x x x x k
+x b k x c
+g x x g c
+
+Level 2 | (2,1) | Power before: 2 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: UP
+k x x c m
+k x x x m
+x H x x k
+x b k x c
+g x x g c
+
+Level 2 | (1,1) | Power before: 2 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: LEFT
+k x x c m
+k H x x m
+x x x x k
+x b k x c
+g x x g c
+
+Level 2 | (1,0) | Power before: 2 | Action: fought a Koopa and lost | Lives: 3 | Coins: 5 | Next move: DOWN
+k x x c m
+H x x x m
+x x x x k
+x b k x c
+g x x g c
+
+Level 2 | (2,0) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: DOWN
+k x x c m
+k x x x m
+H x x x k
+x b k x c
+g x x g c
+
+Level 2 | (3,0) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: UP
+k x x c m
+k x x x m
+x x x x k
+H b k x c
+g x x g c
+
+Level 2 | (2,0) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: UP
+k x x c m
+k x x x m
+H x x x k
+x b k x c
+g x x g c
+
+Level 2 | (1,0) | Power before: 1 | Action: fought a Koopa and lost | Lives: 3 | Coins: 5 | Next move: UP
+k x x c m
+H x x x m
+x x x x k
+x b k x c
+g x x g c
+
+Level 2 | (0,0) | Power before: 0 | Action: fought a Koopa and won | Lives: 3 | Coins: 5 | Next move: UP
+H x x c m
+k x x x m
+x x x x k
+x b k x c
+g x x g c
+
+Level 2 | (4,0) | Power before: 0 | Action: fought a Goomba and won | Lives: 3 | Coins: 5 | Next move: UP
+x x x c m
+k x x x m
+x x x x k
+x b k x c
+H x x g c
+
+Level 2 | (3,0) | Power before: 0 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: DOWN
+x x x c m
+k x x x m
+x x x x k
+H b k x c
+x x x g c
+
+Level 2 | (4,0) | Power before: 0 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: DOWN
+x x x c m
+k x x x m
+x x x x k
+x b k x c
+H x x g c
+
+Level 2 | (0,0) | Power before: 0 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: LEFT
+H x x c m
+k x x x m
+x x x x k
+x b k x c
+x x x g c
+
+Level 2 | (0,4) | Power before: 0 | Action: ate a mushroom | Lives: 3 | Coins: 5 | Next move: RIGHT
+x x x c H
+k x x x m
+x x x x k
+x b k x c
+x x x g c
+
+Level 2 | (0,0) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: DOWN
+H x x c x
+k x x x m
+x x x x k
+x b k x c
+x x x g c
+
+Level 2 | (1,0) | Power before: 1 | Action: fought a Koopa and won | Lives: 3 | Coins: 5 | Next move: UP
+x x x c x
+H x x x m
+x x x x k
+x b k x c
+x x x g c
+
+Level 2 | (0,0) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: RIGHT
+H x x c x
+x x x x m
+x x x x k
+x b k x c
+x x x g c
+
+Level 2 | (0,1) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: LEFT
+x H x c x
+x x x x m
+x x x x k
+x b k x c
+x x x g c
+
+Level 2 | (0,0) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: DOWN
+H x x c x
+x x x x m
+x x x x k
+x b k x c
+x x x g c
+
+Level 2 | (1,0) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: RIGHT
+x x x c x
+H x x x m
+x x x x k
+x b k x c
+x x x g c
+
+Level 2 | (1,1) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: UP
+x x x c x
+x H x x m
+x x x x k
+x b k x c
+x x x g c
+
+Level 2 | (0,1) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: DOWN
+x H x c x
+x x x x m
+x x x x k
+x b k x c
+x x x g c
+
+Level 2 | (1,1) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: UP
+x x x c x
+x H x x m
+x x x x k
+x b k x c
+x x x g c
+
+Level 2 | (0,1) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: LEFT
+x H x c x
+x x x x m
+x x x x k
+x b k x c
+x x x g c
+
+Level 2 | (0,0) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: RIGHT
+H x x c x
+x x x x m
+x x x x k
+x b k x c
+x x x g c
+
+Level 2 | (0,1) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: LEFT
+x H x c x
+x x x x m
+x x x x k
+x b k x c
+x x x g c
+
+Level 2 | (0,0) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: RIGHT
+H x x c x
+x x x x m
+x x x x k
+x b k x c
+x x x g c
+
+Level 2 | (0,1) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: UP
+x H x c x
+x x x x m
+x x x x k
+x b k x c
+x x x g c
+
+Level 2 | (4,1) | Power before: 1 | Action: the position is empty | Lives: 3 | Coins: 5 | Next move: UP
+x x x c x
+x x x x m
+x x x x k
+x b k x c
+x H x g c
+
+Level 2 | (3,1) | Power before: 1 | Action: fought the level boss and lost | Lives: 2 | Coins: 5 | Next move: STAY PUT
+x x x c x
+x x x x m
+x x x x k
+x H k x c
+x x x g c
+
+Level 2 | (3,1) | Power before: 0 | Action: fought the level boss and lost | Lives: 1 | Coins: 5 | Next move: STAY PUT
+x x x c x
+x x x x m
+x x x x k
+x H k x c
+x x x g c
+
+Level 2 | (3,1) | Power before: 0 | Action: fought the level boss and lost | Lives: 0 | Coins: 5 | Next move: STAY PUT
+x x x c x
+x x x x m
+x x x x k
+x H k x c
+x x x g c
+
+Mario lost all lives and the game is over.
+Mario lost in 59 moves.
