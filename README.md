@@ -18,12 +18,12 @@ To compile and run the program:
 
 1. **Compile**: Use g++ to compile the `main.cpp` file.
    ```bash
-   g++ main.cpp -o mario 
+   g++ *.cpp -o Mario
    ```
 
 2. **Run**: Execute the compiled program with the input file name as a command-line argument.
    ```bash
-   ./mario_game input.txt output.txt
+   ./Mario input.txt output.txt
    ```
 
 #### Requirements
@@ -33,4 +33,5 @@ To compile and run the program:
 
 #### References
 - No external libraries or non-primitive data structures (e.g., vectors) are used, as per project requirements.
+
 
